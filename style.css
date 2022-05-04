@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: url('img/stars.jpg') center/cover no-repeat;
+  height: 100vh;
+  overflow: hidden;
+  cursor: none;
+}
+
+.line {
+  position: absolute;
+  background-color: #fabe14;
+}
+
+.horizontal {
+  width: 100%;
+  height: 1px;
+  top: 50%;
+}
+
+.vertical {
+  height: 100%;
+  width: 1px;
+  left: 50%;
+}
+
+.target {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.coordinate {
+  position: absolute;
+  color: #fabe14;
+  font-size: 18px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-51%, 40px);
+}
